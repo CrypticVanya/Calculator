@@ -19,90 +19,41 @@
             </ul>
         </div>
     </div>
-
-    <div class = "container">
-
-        <div class = "left-tab">
-        <div class="info-tab">
-            <div class="info-links">
-                <ul id="left-row">
-                    <li>Get Started</li>
-                    <li>Why Us?</li>
-                    <li>F.A.Q</li>
-                    <li>Ways To Give</li>
-                </ul>
-            </div>
-            <div class="exercises">
-                    <form class="square">
-                        <label for="addition">2 + 2 = ?</label>
-                        <input type="text">
-                        <button class="sbmt">submit</button>
-                    </form>
-                    <form class="square">
-                        <label for="subtraction">2 - 2 = ?</label>
-                        <input type="text">
-                        <button class="sbmt">Submit</button>
-                    </form>
-                    <form class="square">
-                        <label for="division">4 / 2 = ?</label>
-                        <input type="text">
-                        <button class="sbmt">Submit</button>
-                    </form>
-                    <form class="square">
-                        <label for="multiplication">4 * 5 = ?</label>
-                        <input type="text">
-                        <button class="sbmt">Submit</button>
-                    </form>
-                    <form class="square"> 
-                        <label for="operation11">4 * 5 = ?</label>
-                        <input type="text">
-                        <button class="sbmt">Submit</button>
-                    </form>
-                    <form class="square">
-                        <label for="operation2">4^2 + 6 = ?</label>
-                        <input type="text">
-                        <button class="sbmt">Submit</button>
-                    </form>
-            </div>
-      </div>
-      </div>
-
-
+    <div class="container">
         <div class="calculator">
-            <div class="display-screen">Display Screen</div>
+
+            <div class="display-screen">
+                <div class="display-last" id="lastOperationScreen"></div>
+                <div class="display-current" id="currentOperationScreen">0</div>
+            </div>
+
             <div class="btns">
-              
                     <button class="btn" id="7">7</button>
                     <button class="btn" id="8">8</button>
                     <button class="btn" id="9">9</button>
-                    <button class="btn" id="/">/</button>
-                    <button class="btn" id="~">~</button>
-                    <button class="btn" id="c">c</button>
+                    <button class="ops" id="/">/</button>
+                    <button class="ops" id="~">~</button>
+                    <button class="ops" id="c">c</button>
                     <button class="btn" id="4">4</button>
                     <button class="btn" id="5">5</button>
                     <button class="btn" id="6">6</button>
-                    <button class="btn" id="x">x</button>
-                    <button class="btn" id="(">(</button>
-                    <button class="btn" id=")">)</button>
+                    <button class="ops" id="x">x</button>
+                    <button class="ops" id="(">(</button>
+                    <button class="ops" id=")">)</button>
                     <button class="btn" id="1">1</button>
                     <button class="btn" id="2">2</button>
                     <button class="btn" id="3">3</button>
-                    <button class="btn" id="-">-</button>
-                    <button class="btn" id="**">^2</button>
-                    <button class="btn" id="&">&</button>
+                    <button class="ops" id="-">-</button>
+                    <button class="ops" id="**">^2</button>
+                    <button class="ops" id="&">&</button>
                     <button class="btn" id="0">0</button>
-                    <button class="btn" id=".">.</button>
-                    <button class="btn" id="%">%</button>
-                    <button class="btn" id="+">+</button>
-                    <button class="btn" id="=">=</button>
+                    <button class="dot" id=".">.</button>
+                    <button class="ops" id="%">%</button>
+                    <button class="ops" id="+">+</button>
+                    <button class="ops" id="=">=</button>
                     <button class="btn"><a href="https://github.com/CrypticVanya">?</a></button>
-           
-
             </div>
-        </div>
-
-        </div>
-
+    </div>
     </div>
 
     <div class="footer">madeByCrypticVanya</div>
